@@ -1,5 +1,6 @@
 \documentclass{ctexart}
 \usepackage{graphicx}
+\usepackage[left=3cm,right=3cm]{geometry}
 \graphicspath{{images/}}
 \usepackage[backend=biber,style=gb7714-2015]{biblatex}
 \addbibresource[location=local]{refer.bib}	
@@ -12,14 +13,10 @@
 	改革开放以来，随着经济条件的改善，人们开始注意到身心健康是生活安逸的重要保障，但是与此同时市场上养生保健方法鱼目混珠，一方面这些方法不够理论化、体系化，发挥作用寥寥；另一方面有的方法违背客观事实，有人甚至夸大作用，以此来谋求不当之财，污名化中医养生的应有作用。对于此类情景，我们应当正本清源，普及系统化科学的治未病理论，使它得以在新的时代发挥应有的活力，指导人们合适的生活调节方式，为新时期的预防保健工作做出系统性的贡献。为此，本次调查以南京市社区为样本采集点，致力于对当前人们对于中医治未病理论的认知、信念以及行动意愿，简称为“知信行”调查，为后面中医治未病理论的传播工作开展做一个描述性的统计分析。
 	\end{abstract}
 \tableofcontents
-\section{项目流程设计}
 \input{process_scheme}
-\begin{figure}[th]
-	\includegraphics[width=\textwidth]{process.png}
-	\centering
-	\caption{项目设计简图}
-\end{figure}
-\input{theory}
+\input{theory_weibing}
+\input{theory_kap}
+\input{theory_community}
 \printbibliography
-\input{question_wb}
+\include{question_wb}
 \end{document}
