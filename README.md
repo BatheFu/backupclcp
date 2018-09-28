@@ -1,1 +1,1 @@
-This is a repository of updates for preparing the challange cup.
+2019挑战杯进度备份。

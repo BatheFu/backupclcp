@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map name="新文档" document_type="Blumind" editor_version="1.3.16.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <info />
+  <layout>MIND_MAP</layout>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <style>
+    <back_color>White</back_color>
+    <fore_color>Black</fore_color>
+    <line_color>LightSlateGray</line_color>
+    <border_color>SlateGray</border_color>
+    <node_back_color>LightGray</node_back_color>
+    <node_fore_color>Black</node_fore_color>
+    <select_color>RoyalBlue</select_color>
+    <hover_color>MediumSlateBlue</hover_color>
+    <link_line_color>Green</link_line_color>
+    <font font_family="微软雅黑" size="12" style="Regular" />
+  </style>
+  <nodes>
+    <node text="项目流程" width="100" height="40">
+      <style>
+        <back_color>ActiveCaption</back_color>
+        <fore_color>ActiveCaptionText</fore_color>
+        <border_color>Control</border_color>
+        <shape>1</shape>
+        <icon_padding>4</icon_padding>
+      </style>
+      <nodes>
+        <node text="调查分析" width="100" height="40">
+          <style>
+            <back_color>ActiveCaption</back_color>
+            <fore_color>ActiveCaptionText</fore_color>
+            <border_color>Control</border_color>
+            <shape>1</shape>
+            <icon_padding>4</icon_padding>
+          </style>
+          <nodes>
+            <node text="实地访谈" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+            <node text="网络问卷" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+            <node text="分析报告" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+          </nodes>
+        </node>
+        <node text="公众号干预" width="100" height="40">
+          <style>
+            <back_color>ActiveCaption</back_color>
+            <fore_color>ActiveCaptionText</fore_color>
+            <border_color>Control</border_color>
+            <shape>1</shape>
+            <icon_padding>4</icon_padding>
+          </style>
+          <nodes>
+            <node text="受众" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+            <node text="推广" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+            <node text="内容" width="100" height="40">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <fore_color>ActiveCaptionText</fore_color>
+                <border_color>Control</border_color>
+                <shape>1</shape>
+                <icon_padding>4</icon_padding>
+              </style>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</map>
