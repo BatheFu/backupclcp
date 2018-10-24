@@ -1,0 +1,90 @@
+%!TEX program = xelatex
+\documentclass[xcolor=table]{beamer}
+
+\usepackage{ctex}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{graphicx,hyperref,url, materialbeamer}
+\usepackage{braket}
+%\usepackage{euler}
+\usepackage{listings}
+
+
+\graphicspath{ {./figs/images/} }
+\setbeamercovered{transparent}
+\lstdefinestyle{customsql}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  xleftmargin=\parindent,
+  language=SQL,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+\lstset{escapechar=@,style=customsql}
+
+
+
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+%\usefonttheme{serif}
+
+% The title of the presentation:
+%  - first a short version which is visible at the bottom of each slide;
+%  - second the full title shown on the title slide;
+\title{治未病知信行新路径探索}
+
+% Optional: a subtitle to be dispalyed on the title slide
+\subtitle{探索数字时代中医健康传播的可能性}
+
+% The author(s) of the presentation:
+%  - again first a short version to be displayed at the bottom;
+%  - next the full list of authors, which may include contact information;
+\author{付裕刚}
+  
+%\titlegraphic{\includegraphics[width=\textwidth]{atac-logo}}
+
+% The institute:
+%  - to start the name of the university as displayed on the top of each slide
+%    this can be adjusted such that you can also create a Dutch version
+%  - next the institute information as displayed on the title slide
+\institute{第一临床医学院\\南京中医药大学
+}
+
+% Add a date and possibly the name of the event to the slides
+%  - again first a short version to be shown at the bottom of each slide
+%  - second the full date and event name for the title slide
+\date[\today]{
+ \today}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{目录}
+
+  \tableofcontents
+\end{frame}
+\input{workload}
+
+\setbeamercolor{background canvas}{bg=matblue}
+\setbeamercolor{normal text}{fg=white}
+\begin{frame}[plain, b]
+\centering
+\huge \textcolor{white}{谢谢您的聆听！}
+\normalsize
+
+\vspace*{\fill}
+
+
+ \end{frame}
+
+\end{document}
