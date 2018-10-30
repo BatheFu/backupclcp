@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map name="新文档" document_type="Blumind" editor_version="1.3.16.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <info />
+  <layout>MIND_MAP</layout>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <style>
+    <back_color>White</back_color>
+    <fore_color>Black</fore_color>
+    <line_color>LightSlateGray</line_color>
+    <border_color>SlateGray</border_color>
+    <node_back_color>LightGray</node_back_color>
+    <node_fore_color>Black</node_fore_color>
+    <select_color>RoyalBlue</select_color>
+    <hover_color>MediumSlateBlue</hover_color>
+    <link_line_color>Green</link_line_color>
+  </style>
+  <nodes>
+    <node text="项目流程">
+      <style>
+        <back_color>ActiveCaption</back_color>
+        <fore_color>Black</fore_color>
+        <border_color>HighlightText</border_color>
+        <shape>1</shape>
+        <padding>12</padding>
+      </style>
+      <nodes>
+        <node text="定性访谈">
+          <style>
+            <back_color>ActiveCaption</back_color>
+            <border_color>HighlightText</border_color>
+            <shape>1</shape>
+          </style>
+        </node>
+        <node text="定量调查">
+          <style>
+            <back_color>ActiveCaption</back_color>
+            <border_color>HighlightText</border_color>
+            <shape>1</shape>
+          </style>
+        </node>
+        <node text="微信干预">
+          <style>
+            <back_color>ActiveCaption</back_color>
+            <border_color>HighlightText</border_color>
+            <shape>1</shape>
+          </style>
+          <nodes>
+            <node text="平台招募">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <border_color>HighlightText</border_color>
+                <shape>1</shape>
+              </style>
+            </node>
+            <node text="随机化分组">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <border_color>HighlightText</border_color>
+                <shape>1</shape>
+              </style>
+            </node>
+            <node text="开展实验">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <border_color>HighlightText</border_color>
+                <shape>1</shape>
+              </style>
+            </node>
+            <node text="分析结果">
+              <style>
+                <back_color>ActiveCaption</back_color>
+                <border_color>HighlightText</border_color>
+                <shape>1</shape>
+              </style>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</map>
