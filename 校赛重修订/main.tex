@@ -1,0 +1,31 @@
+\documentclass{ctexart}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage[left=3cm,right=3cm]{geometry}
+\hypersetup{colorlinks=false}
+\graphicspath{{../images/}}
+\usepackage[backend=biber,style=gb7714-2015]{biblatex}
+\addbibresource[location=local]{refer.bib}	
+\addbibresource[location=local]{weixin.bib}
+\title{中医“治未病”健康传播机制探索}
+\setcounter{tocdepth}{2}
+\author{}
+\date{\today} 
+\begin{document}
+\zihao{-4}
+	\maketitle
+      \tableofcontents 
+\newpage
+\input{foreword}
+\input{circums}
+\input{community}
+\input{advice}
+\input{expri}
+\printbibliography
+
+\appendix
+\include{../2018秋季学期/question_wb}
+\end{document}
